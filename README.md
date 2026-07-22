@@ -1,16 +1,60 @@
-# React + Vite
+# EElat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EElat is a cinematic, minimal website for a music-driven experience. The project is designed to feel atmospheric, premium, and emotionally immersive while remaining fast, responsive, and easy to maintain.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Development](#development)
+- [Build](#build)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- Tailwind CSS v4
+- Framer Motion
+- ESLint
+- Netlify
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+The local development server will be available through Vite's default local address.
+
+## Build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+The site is intended for deployment on Netlify. A production build is generated with the build command above and can be deployed from the repository or directly through the Netlify dashboard.
+
+## Project Structure
+
+```text
+src/
+  components/
+  pages/
+  assets/
+public/
+```
+
+- Components contain reusable UI pieces such as the hero, navigation, and sections.
+- Pages define the main experience entry points.
+- Public hosts static assets and files served directly by the app.
+
